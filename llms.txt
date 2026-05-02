@@ -1,0 +1,51 @@
+# Geotecnia1 — Buin
+
+> Geotechnical engineering services in Buin, Chile.
+
+## Services
+- [Aislacion Sismica](https://buin.geotecnia1.vip/aislacion-sismica/)
+- [Anclajes](https://buin.geotecnia1.vip/anclajes/)
+- [Calicatas](https://buin.geotecnia1.vip/calicatas/)
+- [Cbr Vial](https://buin.geotecnia1.vip/cbr-vial/)
+- [Cimentaciones](https://buin.geotecnia1.vip/cimentaciones/)
+- [Columnas Grava](https://buin.geotecnia1.vip/columnas-grava/)
+- [Densidad Cono Arena](https://buin.geotecnia1.vip/densidad-cono-arena/)
+- [Ensayo Cpt](https://buin.geotecnia1.vip/ensayo-cpt/)
+- [Ensayos Proctor](https://buin.geotecnia1.vip/ensayos-proctor/)
+- [Estabilidad Taludes](https://buin.geotecnia1.vip/estabilidad-taludes/)
+- [Excavaciones Profundas](https://buin.geotecnia1.vip/excavaciones-profundas/)
+- [Excavaciones Subterraneo](https://buin.geotecnia1.vip/excavaciones-subterraneo/)
+- [Exploracion](https://buin.geotecnia1.vip/exploracion/)
+- [Geotecnia Vial](https://buin.geotecnia1.vip/geotecnia-vial/)
+- [Granulometria](https://buin.geotecnia1.vip/granulometria/)
+- [Inyecciones](https://buin.geotecnia1.vip/inyecciones/)
+- [Laboratorio In Situ](https://buin.geotecnia1.vip/laboratorio-in-situ/)
+- [Laboratorio Lab](https://buin.geotecnia1.vip/laboratorio-lab/)
+- [Licuefaccion](https://buin.geotecnia1.vip/licuefaccion/)
+- [Limites Atterberg](https://buin.geotecnia1.vip/limites-atterberg/)
+- [Losas Fundacion](https://buin.geotecnia1.vip/losas-fundacion/)
+- [Masw](https://buin.geotecnia1.vip/masw/)
+- [Mejoramiento](https://buin.geotecnia1.vip/mejoramiento/)
+- [Microzonificacion Sismica](https://buin.geotecnia1.vip/microzonificacion-sismica/)
+- [Monitoreo Excavaciones](https://buin.geotecnia1.vip/monitoreo-excavaciones/)
+- [Muros Contencion](https://buin.geotecnia1.vip/muros-contencion/)
+- [Pavimento Flexible](https://buin.geotecnia1.vip/pavimento-flexible/)
+- [Pavimento Rigido](https://buin.geotecnia1.vip/pavimento-rigido/)
+- [Permeabilidad In Situ](https://buin.geotecnia1.vip/permeabilidad-in-situ/)
+- [Pilotes](https://buin.geotecnia1.vip/pilotes/)
+- [Refraccion Sismica](https://buin.geotecnia1.vip/refraccion-sismica/)
+- [Resistividad](https://buin.geotecnia1.vip/resistividad/)
+- [Sismica](https://buin.geotecnia1.vip/sismica/)
+- [Sondajes Spt](https://buin.geotecnia1.vip/sondajes-spt/)
+- [Taludes](https://buin.geotecnia1.vip/taludes/)
+- [Triaxial](https://buin.geotecnia1.vip/triaxial/)
+- [Tuneles Suelo Blando](https://buin.geotecnia1.vip/tuneles-suelo-blando/)
+- [Vibrocompactacion](https://buin.geotecnia1.vip/vibrocompactacion/)
+- [Zapatas](https://buin.geotecnia1.vip/zapatas/)
+
+## Contact
+- Website: https://buin.geotecnia1.vip/
+
+## About
+This site provides geotechnical engineering services in Buin, Chile.
+Compliant with local and international standards (ASTM, ISO, country-specific norms).
