@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+<head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg">
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Geotecnia vial en Buin – Chile</title>
 <meta name="description" content="En Buin, la geotecnia vial aborda el comportamiento del suelo de fundación y la subrasante sobre depósitos fluviales del río Maipo, caracterizados por grav">
@@ -19,67 +19,67 @@
 <meta name="twitter:description" content="En Buin, la geotecnia vial aborda el comportamiento del suelo de fundación y la subrasante sobre depósitos fluviales del río Maipo, caracterizados por grav">
 <meta name="twitter:image" content="https://buin.geotecnia1.vip/img/aislacion-sismica-1.webp">
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'IBM Plex Sans',Georgia,serif;background:#F9FAFB;color:#111827;line-height:1.7;font-size:16px}
-a{color:#14B8A6;text-decoration:none}
-a:hover{color:#0F766E}
-/* HEADER DARK */
-.header{background:#1F2937;color:#FFF;padding:3rem 3rem 4rem}
-.header-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:2.5rem}
-.brand{display:flex;align-items:flex-start;gap:1rem}
-.brand-logo{width:50px;height:50px;border:2px solid #FFF;border-radius:50%;background:#14B8A6;position:relative;display:flex;align-items:center;justify-content:center;color:#FFF;font-size:1.4rem;font-weight:700;font-family:'Space Grotesk',sans-serif}
-.brand-text{margin-top:.3rem}
-.brand-name{font-family:'Space Grotesk',serif;font-weight:700;letter-spacing:.15em;font-size:1rem;color:#FFF}
-.brand-city{font-size:.82rem;color:#888;margin-top:.2rem}
-.header-email{color:#FFF;font-size:.88rem}
-.crumb{font-size:.82rem;color:rgba(255,255,255,.85);margin-bottom:.8rem}
-.crumb a{color:#FFF;text-decoration:underline;font-weight:600}
-.crumb a:hover{color:#14B8A6}
+@media(max-width:900px){.layout{grid-template-columns:1fr}}
+main p{margin-bottom:1.1rem;color:#333;line-height:1.75;text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+.cat-arrow svg{width:10px;height:10px;display:block}
 .header h1{font-family:'Space Grotesk',serif;font-weight:700;font-size:clamp(2rem,4vw,2.8rem);color:#FFF;letter-spacing:-.01em;line-height:1.15}
-/* LAYOUT */
-.layout{display:grid;grid-template-columns:240px 1fr;gap:0;max-width:1200px;margin:0 auto;padding:2rem}
+details.faq summary{font-weight:700;color:#111827;list-style:none;font-family:'Space Grotesk',serif}
+.cat-item{border-bottom:1px solid #F3F4F6}
+footer{background:#1F2937;color:#AAA;padding:2rem 3rem;font-size:.82rem;text-align:center;margin-top:3rem}
 /* SIDEBAR — modern clean */
 aside{background:#FFFFFF;color:#1F2937;padding:0;align-self:start;position:sticky;top:1rem;border-radius:8px;overflow:hidden;border:1px solid #E5E7EB;box-shadow:0 1px 3px rgba(0,0,0,.05)}
-.sb-home{display:block;padding:1rem 1.25rem;font-family:'Space Grotesk',serif;font-weight:700;color:#FFF;background:#1F2937;letter-spacing:.02em;text-decoration:none;font-size:1rem}
-.sb-home:hover{color:#14B8A6}
-.cat-item{border-bottom:1px solid #F3F4F6}
-.cat-item:last-child{border-bottom:none}
-.cat-row{display:flex;align-items:stretch;justify-content:space-between;min-height:42px}
-.cat-name{flex:1;padding:.7rem 1.25rem;color:#1F2937;font-size:.92rem;font-weight:600;text-decoration:none;line-height:1.3;display:flex;align-items:center}
-.cat-name:hover{color:#14B8A6;background:#F9FAFB}
-.cat-toggle{background:transparent;border:none;border-left:1px solid #F3F4F6;padding:0 .9rem;cursor:pointer;color:#9CA3AF;display:flex;align-items:center;justify-content:center;transition:color .15s}
-.cat-toggle:hover{color:#14B8A6;background:#F9FAFB}
 .cat-arrow{display:inline-flex;align-items:center;transition:transform .2s}
-.cat-arrow svg{width:10px;height:10px;display:block}
-.cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
+.brand-text{margin-top:.3rem}
+.brand-city{font-size:.82rem;color:#888;margin-top:.2rem}
+.cat-name{flex:1;padding:.7rem 1.25rem;color:#1F2937;font-size:.92rem;font-weight:600;text-decoration:none;line-height:1.3;display:flex;align-items:center}
+details.faq p{color:#444;margin:0}
+body{font-family:'IBM Plex Sans',Georgia,serif;background:#F9FAFB;color:#111827;line-height:1.7;font-size:16px}
+.cta h3{font-family:'Space Grotesk',serif;font-size:1.4rem;margin-bottom:.7rem;color:#FFF !important}
+.cat-name:hover{color:#14B8A6;background:#F9FAFB}
 .cat-sub{background:#F9FAFB;padding:.25rem 0 .5rem;border-top:1px solid #F3F4F6}
-.cat-sub a{display:block;padding:.5rem 1.25rem .5rem 2rem;color:#4B5563;font-size:.85rem;text-decoration:none;border-left:2px solid transparent;line-height:1.4}
+.brand-name{font-family:'Space Grotesk',serif;font-weight:700;letter-spacing:.15em;font-size:1rem;color:#FFF}
+.cat-toggle:hover{color:#14B8A6;background:#F9FAFB}
+main p:first-child{font-size:1.05rem;color:#333}
+.cat-row{display:flex;align-items:stretch;justify-content:space-between;min-height:42px}
+.cat-item:last-child{border-bottom:none}
+.sb-home:hover{color:#14B8A6}
+/* HEADER DARK */
+.header{background:#1F2937;color:#FFF;padding:3rem 3rem 4rem}
 .cat-sub a:hover{color:#14B8A6;border-left-color:#14B8A6;background:#F3F4F6}
+.brand{display:flex;align-items:flex-start;gap:1rem}
+/* LAYOUT */
+.layout{display:grid;grid-template-columns:240px 1fr;gap:0;max-width:1200px;margin:0 auto;padding:2rem}
+.header-email{color:#FFF;font-size:.88rem}
 /* MAIN */
 main{background:#FFF;padding:3rem 3rem;min-height:60vh}
-main h2{font-family:'Space Grotesk',serif;font-weight:700;font-size:1.6rem;color:#111827;margin:2rem 0 1rem;letter-spacing:.01em}
-main p{margin-bottom:1.1rem;color:#333;line-height:1.75;text-align:justify;hyphens:auto;-webkit-hyphens:auto}
-main p:first-child{font-size:1.05rem;color:#333}
-.cta{background:#1F2937;color:#FFF;padding:2rem;text-align:center;margin:2rem 0;border-radius:0}
-.cta h3{font-family:'Space Grotesk',serif;font-size:1.4rem;margin-bottom:.7rem;color:#FFF !important}
-.cta p{color:#FFF !important;text-align:center !important}
-.cta a{color:#14B8A6;font-weight:600}
-table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-family:'IBM Plex Sans',serif}
-table th{background:#1F2937;color:#FFF;text-align:left;padding:.7rem 1rem;font-size:.85rem;letter-spacing:.05em;font-weight:700}
-table td{padding:.7rem 1rem;border-bottom:1px solid #E5E5E5;color:#111827}
-details.faq{background:#FAFAFA;border:1px solid #E5E5E5;padding:1rem 1.3rem;margin-bottom:.7rem;cursor:pointer}
-details.faq summary{font-weight:700;color:#111827;list-style:none;font-family:'Space Grotesk',serif}
+.sb-home{display:block;padding:1rem 1.25rem;font-family:'Space Grotesk',serif;font-weight:700;color:#FFF;background:#1F2937;letter-spacing:.02em;text-decoration:none;font-size:1rem}
+.cat-toggle{background:transparent;border:none;border-left:1px solid #F3F4F6;padding:0 .9rem;cursor:pointer;color:#9CA3AF;display:flex;align-items:center;justify-content:center;transition:color .15s}
+a{color:#14B8A6;text-decoration:none}
 details.faq[open] summary{margin-bottom:.7rem;color:#0F766E}
-details.faq p{color:#444;margin:0}
-footer{background:#1F2937;color:#AAA;padding:2rem 3rem;font-size:.82rem;text-align:center;margin-top:3rem}
+table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-family:'IBM Plex Sans',serif}
+.cta{background:#1F2937;color:#FFF;padding:2rem;text-align:center;margin:2rem 0;border-radius:0}
+.cat-sub a{display:block;padding:.5rem 1.25rem .5rem 2rem;color:#4B5563;font-size:.85rem;text-decoration:none;border-left:2px solid transparent;line-height:1.4}
+details.faq{background:#FAFAFA;border:1px solid #E5E5E5;padding:1rem 1.3rem;margin-bottom:.7rem;cursor:pointer}
+.crumb-ce8c{font-size:.82rem;color:rgba(255,255,255,.85);margin-bottom:.8rem}
+.cta p{color:#FFF !important;text-align:center !important}
+a:hover{color:#0F766E}
+.brand-logo{width:50px;height:50px;border:2px solid #FFF;border-radius:50%;background:#14B8A6;position:relative;display:flex;align-items:center;justify-content:center;color:#FFF;font-size:1.4rem;font-weight:700;font-family:'Space Grotesk',sans-serif}
+.crumb-ce8c a:hover{color:#14B8A6}
+*{margin:0;padding:0;box-sizing:border-box}
+table th{background:#1F2937;color:#FFF;text-align:left;padding:.7rem 1rem;font-size:.85rem;letter-spacing:.05em;font-weight:700}
+.cta a{color:#14B8A6;font-weight:600}
+.cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}aside{position:static}
+.header-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:2.5rem}
+table td{padding:.7rem 1rem;border-bottom:1px solid #E5E5E5;color:#111827}
+main h2{font-family:'Space Grotesk',serif;font-weight:700;font-size:1.6rem;color:#111827;margin:2rem 0 1rem;letter-spacing:.01em}
 footer a{color:#14B8A6}
-@media(max-width:900px){.layout{grid-template-columns:1fr}aside{position:static}}
-</style><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://buin.geotecnia1.vip/geotecnia-vial/", "url": "https://buin.geotecnia1.vip/geotecnia-vial/", "name": "Geotecnia vial en Buin – Chile", "inLanguage": "es", "description": "En Buin, la geotecnia vial aborda el comportamiento del suelo de fundación y la subrasante sobre depósitos fluviales del río Maipo, caracterizados por grav", "isPartOf": {"@type": "WebSite", "@id": "https://buin.geotecnia1.vip/#website", "url": "https://buin.geotecnia1.vip"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://buin.geotecnia1.vip/"}, {"@type": "ListItem", "position": 2, "name": "Geotecnia vial", "item": "https://buin.geotecnia1.vip/geotecnia-vial/"}]}, {"@type": "ItemList", "name": "Geotecnia vial", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://buin.geotecnia1.vip/pavimento-flexible/", "name": "Diseño de pavimento flexible"}, {"@type": "ListItem", "position": 2, "url": "https://buin.geotecnia1.vip/pavimento-rigido/", "name": "Diseño de pavimento rígido"}, {"@type": "ListItem", "position": 3, "url": "https://buin.geotecnia1.vip/cbr-vial/", "name": "Estudio CBR para diseño vial"}, {"@type": "ListItem", "position": 4, "url": "https://buin.geotecnia1.vip/geotecnia-vial/", "name": "Geotecnia vial (diseño pavimentos/subrasante)"}]}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#7C2D12"><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head><body>
+.crumb-ce8c a{color:#FFF;text-decoration:underline;font-weight:600}
+</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"url":"https://buin.geotecnia1.vip/geotecnia-vial/","description":"En Buin, la geotecnia vial aborda el comportamiento del suelo de fundación y la subrasante sobre depósitos fluviales del río Maipo, caracterizados por grav","name":"Geotecnia vial en Buin – Chile","inLanguage":"es","@type":"WebPage","@id":"https://buin.geotecnia1.vip/geotecnia-vial/","isPartOf":{"@type":"WebSite","url":"https://buin.geotecnia1.vip","@id":"https://buin.geotecnia1.vip/#website"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://buin.geotecnia1.vip/","position":1,"name":"Home"},{"@type":"ListItem","item":"https://buin.geotecnia1.vip/geotecnia-vial/","position":2,"name":"Geotecnia vial"}]},{"name":"Geotecnia vial","@type":"ItemList","itemListElement":[{"@type":"ListItem","url":"https://buin.geotecnia1.vip/pavimento-flexible/","position":1,"name":"Diseño de pavimento flexible"},{"@type":"ListItem","url":"https://buin.geotecnia1.vip/pavimento-rigido/","position":2,"name":"Diseño de pavimento rígido"},{"@type":"ListItem","url":"https://buin.geotecnia1.vip/cbr-vial/","position":3,"name":"Estudio CBR para diseño vial"},{"@type":"ListItem","url":"https://buin.geotecnia1.vip/geotecnia-vial/","position":4,"name":"Geotecnia vial (diseño pavimentos/subrasante)"}]}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#7C2D12"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head><body>
 
 <header class="header">
     <div class="header-top">
         <div class="brand">
-            <div class="brand-logo">B</div>
+            <div class="brand-logo">G1</div>
             <div class="brand-text">
                 <div class="brand-name">GEOTECNIA 1</div>
                 <div class="brand-city">Buin, Chile</div>
@@ -87,7 +87,7 @@ footer a{color:#14B8A6}
         </div>
         <a href="mailto:contacto@geotecnia1.vip" class="header-email">contacto@geotecnia1.vip</a>
     </div>
-    <div class="crumb"><a href="/">Inicio</a> › <span>Geotecnia vial</span></div>
+    <div class="crumb-ce8c-ce8c"><a href="/">Inicio</a> › <span>Geotecnia vial</span></div>
     <h1>Geotecnia vial en Buin</h1>
 </header>
 
@@ -97,51 +97,22 @@ footer a{color:#14B8A6}
         <p>En Buin, la geotecnia vial aborda el comportamiento del suelo de fundación y la subrasante sobre depósitos fluviales del río Maipo, caracterizados por gravas arenosas y limos de plasticidad variable. Aplicamos la normativa nacional, como el Manual de Carreteras y el Método AASHTO, para ejecutar el <a href="cbr-vial">estudio CBR para diseño vial</a> que determina la capacidad de soporte real del terreno. A partir de esos datos se define la solución estructural más eficiente, integrando el <a href="pavimento-flexible">diseño de pavimento flexible</a> cuando las condiciones de drenaje y tránsito lo permiten.</p>
 <p>Esta categoría es indispensable en la apertura de calles en parcelaciones, accesos a viñedos y plataformas industriales, donde la estabilidad de la explanada condiciona la vida útil del proyecto. Para vías sometidas a cargas pesadas o frenajes frecuentes, complementamos el análisis con el <a href="pavimento-rigido">diseño de pavimento rígido</a>, asegurando un paquete estructural compatible con la geología local y las exigencias de la Dirección de Vialidad.</p>
 
-        <blockquote style="border-left:4px solid #14B8A6;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">En Buin, calibrar un sistema de aislación sísmica sin un estudio de sitio que incluya MASW y SPT es como recetar sin diagnóstico: el riesgo de amplificación por efecto de sitio es real y evitable.</blockquote>
-
         
-
-        <h2>Metodología y alcance</h2><div>Trabajamos recientemente en el diseño de un edificio institucional de tres niveles en la avenida San Martín, donde los sondeos iniciales mostraron un espesor de suelo blando mayor al esperado. Aunque la zona tiene buena fama geotécnica, la presencia de lentes de limo arenoso a ocho metros de profundidad alteraba el período fundamental del terreno. Para caracterizarlo, el equipo técnico ejecutó un perfil continuo de resistencia a la penetración mediante <a href="/sondajes-spt/">sondajes SPT</a> de acuerdo a la norma ASTM D1586-18, contrastando los valores N60 con los registros geofísicos. La aislación sísmica de base se diseñó entonces para un amortiguamiento equivalente del 15%, utilizando aisladores elastoméricos con núcleo de plomo calibrados para un desplazamiento máximo de 25 centímetros. Este enfoque, que vincula el modelo estructural con la respuesta dinámica real del subsuelo de Buin, evita que la estructura entre en resonancia durante sismos de subducción como el de 2010, que en la comuna alcanzó intensidades de VIII en la escala de Mercalli.</div>
-        <figure style="margin:1.5rem auto;max-width:60%;border-radius:6px;overflow:hidden;border:1px solid #E5E5E5"><img src="/img/aislacion-sismica-1.webp" alt="Diseño de Aislación Sísmica de Base en Buin: Ingeniería para Proteger Estructuras" loading="lazy" style="width:100%;max-height:200px;object-fit:cover;display:block"></figure>
-        <h2>Consideraciones locales</h2><p>El error más frecuente en la zona es asumir que el suelo de Buin es homogéneo y se comporta como roca firme. Algunas constructoras solicitan el diseño de aislación sísmica de base basándose únicamente en el estudio de mecánica de suelos de la excavación, sin ejecutar ensayos geofísicos profundos. Esto lleva a subestimar la amplificación dinámica en terrenos que, aunque compactos en superficie, esconden estratos blandos a profundidades intermedias. Durante el terremoto de 2010, sectores de Buin cercanos al estero experimentaron agrietamientos y asentamientos diferenciales precisamente por este fenómeno. La normativa NCh2745:2013 exige un análisis de respuesta de sitio para el sismo máximo creíble; ignorarlo puede resultar en un sistema de aislación que no se desplace lo suficiente, o peor aún, que transmita aceleraciones mayores a las calculadas, comprometiendo la seguridad de los ocupantes y la operatividad continua de la edificación.</p>
-
-        
-    <section class="block mid-cta" style="padding:2rem 0">
+<section class="block mid-cta-ce8c-ce8c" style="padding:2rem 0">
       <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#14B8A615,#14B8A608);border-left:4px solid #14B8A6;padding:1.6rem 1.8rem;border-radius:8px;text-align:center">
         <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">¿Necesita una evaluación geotécnica?</h3>
         <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Respuesta en menos de 24h.</p>
         <div style="margin:.4rem 0 1rem;text-align:center"><a href="https://wa.me/56977092993" style="display:inline-block;background:#25D366;color:#FFF !important;padding:1rem 2.2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(37,211,102,.25)">WhatsApp directo: +56 9 7709 2993</a></div><p style="margin:.4rem 0 0;color:#64748B;font-size:.85rem;font-style:italic;text-align:center">La forma más rápida de cotizar</p><p style="margin:1rem 0 0;color:#1E293B;font-size:.92rem;text-align:center">Email: <a href="mailto:contacto@geotecnia1.vip" style="color:#14B8A6;text-decoration:underline;font-weight:600">contacto@geotecnia1.vip</a></p>
       </div>
     </section>
+<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto">
+<img src="/img/ensayo-triaxial-1.webp" alt="Geotecnia vial en Buin" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+<p>La geotecnia vial en Buin aborda la caracterización del subsuelo para el diseño y la conservación de caminos, autopistas y obras de paso, considerando la geología local marcada por depósitos fluviales del río Maipo y suelos finos de origen volcánico. La normativa chilena aplicable incluye el Manual de Carreteras del MOP, que establece exigencias mínimas para la prospección, los taludes y la capacidad de soporte de la subrasante. Una adecuada <a href="/exploracion/">exploración geotécnica</a> permite identificar lentes de arena suelta, niveles freáticos someros y arcillas expansivas que condicionan la estabilidad de la plataforma. Complementariamente, los <a href="/permeabilidad-in-situ/">ensayos in situ</a> aportan datos directos del comportamiento mecánico del terreno sin alterar su estructura natural.</p>
+<p>La metodología de investigación se apoya en calicatas, sondajes y ensayos de penetración normalizados según las directrices del Manual de Carreteras y las normas NCh. El <a href="/ensayo-cpt/">ensayo CPT</a> resulta particularmente útil en los sedimentos blandos del valle, ya que registra de forma continua la resistencia por punta y la fricción lateral, permitiendo detectar capas compresibles y evaluar el potencial de licuefacción. Los resultados se complementan con <a href="/">ensayos de laboratorio</a> sobre muestras remoldeadas e inalteradas, determinando humedad natural, densidad y parámetros de resistencia al corte bajo condiciones de compactación Proctor modificado, exigencia habitual en terraplenes y capas granulares.</p>
+<p>Los proyectos viales típicos en la comuna demandan soluciones para mejoramiento de subrasante en suelos de alta plasticidad, diseño de terraplenes sobre depósitos limo-arcillosos y estabilización de taludes en accesos a puentes sobre el río Maipo. La determinación de la <a href="/densidad-cono-arena/">densidad de campo mediante cono de arena</a> verifica el grado de compactación alcanzado en rellenos estructurales, asegurando que se cumplan los porcentajes del Proctor especificados en las bases técnicas. Frecuentemente se requiere controlar la expansibilidad con <a href="/limites-atterberg/">límites de Atterberg</a> y ajustar la curva granulométrica de los áridos empleados en base y subbase.</p>
+<img src="/img/pavimento-rigido-3.webp" alt="Geotecnia vial en Buin" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
 
-        
-
-        <h2>Normativa aplicable</h2><p>NCh2745:2013 - Análisis y diseño de edificios con aislación sísmica, NCh433.Of1996 Mod.2012 - Diseño sísmico de edificios, NCh2369.Of2003 - Diseño sísmico de estructuras e instalaciones industriales, ASCE/SEI 7-16 Capítulo 17 - Seismic design requirements for seismically isolated structures, ASTM D4428/D4428M-14 - Crosshole seismic testing</p>
-
-        
-    <section class="block sub-services-block" style="padding:3.5rem 1.5rem">
-      <style>
-        .sub-svc-grid { display:flex; flex-wrap:wrap; gap:1.5rem; margin-top:1.5rem; justify-content:center; }
-        .sub-svc-grid > .sub-svc, .sub-svc-grid > a.sub-svc { flex:0 0 calc(50% - 0.75rem); min-width:220px; padding:1rem 1.2rem; border:1px solid #E5E7EB; border-radius:10px; background:#FFFFFF; transition:border-color .18s ease, box-shadow .18s ease, transform .18s ease; position:relative; }
-        .sub-svc-grid > a.sub-svc-link { display:block; text-decoration:none; color:inherit; cursor:pointer; }
-        .sub-svc-grid > a.sub-svc-link:hover { border-color:#14B8A6; box-shadow:0 4px 14px rgba(0,0,0,.08); transform:translateY(-2px); }
-        .sub-svc-grid > a.sub-svc-link:hover h3 { color:#14B8A6; }
-        .sub-svc-grid > a.sub-svc-link:hover .sub-svc-arrow { transform:translateX(4px); opacity:1; }
-        .sub-svc-arrow { position:absolute; right:1rem; bottom:.9rem; color:#14B8A6; font-weight:700; font-size:1.1rem; opacity:.6; transition:transform .18s ease, opacity .18s ease; }
-      </style>
-      <div style="max-width:1200px;margin:0 auto">
-        <h2 style="margin-bottom:1.5rem;font-weight:700">Servicios técnicos asociados</h2>
-        <div class="sub-svc-grid">
-          <div class="sub-svc"><div class="sub-svc-num" style="color:#14B8A6;font-weight:700;font-size:.85rem;letter-spacing:.1em">01</div><h3 style="color:#1F2937;font-size:1.1rem;margin:.3rem 0 .5rem">Caracterización geofísica del subsuelo</h3><p style="color:#333;line-height:1.65;font-size:.93rem">Ejecutamos perfiles de refracción sísmica y análisis multicanal de ondas superficiales (MASW) para obtener la velocidad de onda de corte (Vs30) y definir la clasificación de sitio sísmico en Buin conforme a la NCh433.</p></div><div class="sub-svc"><div class="sub-svc-num" style="color:#14B8A6;font-weight:700;font-size:.85rem;letter-spacing:.1em">02</div><h3 style="color:#1F2937;font-size:1.1rem;margin:.3rem 0 .5rem">Análisis de respuesta de sitio</h3><p style="color:#333;line-height:1.65;font-size:.93rem">Modelamos la propagación de ondas sísmicas a través de los estratos locales, usando el método lineal equivalente o no lineal, para determinar el espectro de respuesta específico del predio en Buin.</p></div><div class="sub-svc"><div class="sub-svc-num" style="color:#14B8A6;font-weight:700;font-size:.85rem;letter-spacing:.1em">03</div><h3 style="color:#1F2937;font-size:1.1rem;margin:.3rem 0 .5rem">Ensayos de penetración estándar (SPT)</h3><p style="color:#333;line-height:1.65;font-size:.93rem">Realizamos sondajes profundos para correlacionar la resistencia a la penetración (N60) con la densidad relativa del suelo, verificando la capacidad de soporte bajo cargas cíclicas en los estratos de fundación de Buin.</p></div><div class="sub-svc"><div class="sub-svc-num" style="color:#14B8A6;font-weight:700;font-size:.85rem;letter-spacing:.1em">04</div><h3 style="color:#1F2937;font-size:1.1rem;margin:.3rem 0 .5rem">Estudio de licuefacción y estabilidad</h3><p style="color:#333;line-height:1.65;font-size:.93rem">Evaluamos el potencial de licuefacción en suelos arenosos saturados de Buin, aplicando metodologías de Seed e Idriss y Youd et al., para garantizar la estabilidad de la subrasante bajo los aisladores.</p></div>
-        </div>
-      </div>
-    </section>
-
-        <h2>Parámetros típicos</h2><div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #14B8A6;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#14B8A6;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parámetro</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Valor típico</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Tipo de dispositivo</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Elastomérico con núcleo de plomo (LRB) / Deslizante de péndulo de fricción (FPS)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Amortiguamiento equivalente</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">10% a 30% según diseño y normativa NCh2745:2013</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Desplazamiento máximo de diseño</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">20 cm a 45 cm para sismo máximo considerado (MCE)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Período objetivo de la estructura aislada</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">2.5 a 3.5 segundos para desacople del suelo de Buin</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Clasificación sísmica de sitio</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Tipo C o D (según Vs30 obtenida en terreno)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Norma de análisis geotécnico</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">NCh433, NCh2369, ASCE 7-16 Capítulo 17</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Profundidad de exploración mínima</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">20 m bajo el nivel de interfaz de aislación</td></tr></tbody></table></div>
-
-        <h2>Preguntas frecuentes</h2><details class="faq"><summary>¿Cuál es el costo promedio de un estudio de suelo para diseñar aislación sísmica en Buin?</summary><p>El rango de inversión para un estudio geotécnico completo que incluya MASW, SPT y análisis de respuesta de sitio en Buin fluctúa entre $1.933.000 y $4.204.000, dependiendo de la profundidad de exploración y la complejidad del perfil estratigráfico.</p></details><details class="faq"><summary>¿Qué normas técnicas rigen el diseño de aisladores sísmicos en Chile?</summary><p>En Chile, el diseño de aislación sísmica de base se rige por la NCh2745:2013, que complementa la NCh433.Of1996 Mod.2012 y la NCh2369.Of2003 para estructuras industriales. También se suele usar como referencia el capítulo 17 de la norma estadounidense ASCE 7-16.</p></details><details class="faq"><summary>¿En qué tipo de suelo de Buin es más recomendable usar aislación sísmica?</summary><p>La aislación sísmica es especialmente efectiva en los suelos tipo C y D de Buin, donde predominan arenas y gravas densas con intercalaciones de limo. En estos perfiles, los aisladores desacoplan la estructura del movimiento del terreno, reduciendo las aceleraciones de piso y el daño en contenidos.</p></details><details class="faq"><summary>¿Qué diferencia hay entre un aislador elastomérico y uno de péndulo de fricción?</summary><p>El aislador elastomérico con núcleo de plomo disipa energía mediante la fluencia del metal, ideal para edificios bajos y rígidos. El de péndulo de fricción (FPS) usa la curvatura de una superficie deslizante y es muy efectivo para estructuras altas, ya que su período no depende de la masa soportada.</p></details>
-    
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Servicios disponibles</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../pavimento-flexible/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Diseño de pavimento flexible</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../pavimento-rigido/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Diseño de pavimento rígido</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../cbr-vial/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Estudio CBR para diseño vial</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../geotecnia-vial/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Geotecnia vial (diseño pavimentos/subrasante)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
+<p>El proceso de trabajo integra la planificación de campañas de reconocimiento, la ejecución sistemática de ensayos y la elaboración de informes con perfiles estratigráficos, parámetros de deformabilidad y recomendaciones de cimentación para obras de drenaje y losas de aproximación. Los entregables incluyen la clasificación de suelos según USCS, el <a href="/granulometria/">análisis granulométrico por tamizado e hidrómetro</a> y la verificación de capacidad de soporte para <a href="/cimentaciones/">cimentaciones</a> de estructuras viales. Esta integración de técnicas de campo y laboratorio, alineada con la normativa vial chilena, reduce incertidumbres geotécnicas y optimiza los costos de construcción y mantenimiento en el corredor sur de la Región Metropolitana.</p></div></section></main>
 </div>
 
 
@@ -169,7 +140,7 @@ footer a{color:#14B8A6}
       </div>
     </section>
 
-<footer style="background:#1F2937;color:rgba(255,255,255,.85);padding:2rem 1.5rem;text-align:center;font-size:.92rem">Buin, Chile · <a href="mailto:contacto@geotecnia1.vip" style="color:#FFF;text-decoration:underline">contacto@geotecnia1.vip</a><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Referencias técnicas:</strong> <a href="https://www.inn.cl/" rel="nofollow noopener" target="_blank">NCh INN</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotécnica</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocódigo 7</a></div><div class="updated-info" data-updated="2026-05-01" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Última actualización: 2026-05-01</div></footer>
+<footer style="background:#1F2937;color:rgba(255,255,255,.85);padding:2rem 1.5rem;text-align:center;font-size:.92rem">Buin, Chile · <a href="mailto:contacto@geotecnia1.vip" style="color:#FFF;text-decoration:underline">contacto@geotecnia1.vip</a><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Referencias técnicas:</strong> <a href="https://www.inn.cl/" rel="nofollow noopener" target="_blank">NCh INN</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotécnica</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocódigo 7</a></div><div class="updated-info" data-updated="2026-04-16" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Última actualización: 2026-04-16</div></footer>
 
 <script id="sidebar-toggle-v3">
 (function(){

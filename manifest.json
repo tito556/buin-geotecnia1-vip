@@ -11,5 +11,10 @@
       "sizes": "any",
       "type": "image/svg+xml"
     }
-  ]
+  ],
+  "lang": "es",
+  "orientation": "any",
+  "scope": "/",
+  "description": "Servicios geotécnicos profesionales en Buin, Chile. Estudios de suelo, ensayos y consultoría técnica.",
+  "id": "/buin-0773"
 }
